@@ -5,7 +5,7 @@
 This is the python implementation accompanying the paper *DiffVersify: a scalable approach to differentiable pattern mining though coverage regularization*.
 The code is based on Fischer et al [1] and is available under the license GNU General Public License v3.0. We strongly recommend to run the code on a GPU.
 
-### Presentation
+## Presentation
 Pattern mining addresses the challenge of automatically identifying interpretable and discriminative patterns within data. 
 Recent approaches, leveraging differentiable approach through neural autoencoder with class recovery, have achieved encouraging results but tend to fall short as the magnitude of the noise and the number of underlying features increase in the data. 
 Empirically, one can observe that the number of discovered patterns tend to be limited in theses challenging contexts. 
@@ -15,6 +15,8 @@ Experimentally, across four real-world datasets, our method showcases superior p
 Then, we demonstrate its capability to enhance pattern detection by augmenting the similarity with the ground truth patterns for synthetic data. %, where ground truth patterns are known. 
 Finally, we propose several evaluation metrics to better characterize the appropriateness of discovered patterns relative to the data, with a focus on pattern coverage. 
 Our results indicate the efficacy of our approach in this regard, demonstrating strong performance across various datasets.
+
+## Technical informations
 
 ### Required packages
 - pyTorch (1.12.1 for the results in the paper)
